@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active{
+  background-color: #04AA6D;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  gap: 4vh;
+  padding: 4vh 1vh;
+}
+.column{
+  flex-direction: column;
+  width: 350px;
+}
+
+.card > img{
+  width: 100%;
+}
+
+.copyright{
+  background-color: orange;
+  padding: 1.4vh;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+}
+
+button{
+  width: 100%;
+  padding: 6px;
+  text-align: center;
+  color: white;
+  background-color: black;
+
+}
