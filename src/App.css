@@ -76,7 +76,7 @@ li a:hover {
 }
 .column{
   flex-direction: column;
-  width: 350px;
+  width: 380px;
 }
 
 .card > img{
@@ -89,6 +89,9 @@ li a:hover {
   font-weight: 600;
   font-size: 1rem;
   text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 button{
