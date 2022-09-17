@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { List } from "./ListOfPlayers";
 export default class Player extends Component {
   render() {
-    List.map((player) => (
-      <div className="container">
+    return <div className="container">
+      {List.map((player) => (
         <div className="column">
           <div className="card">
             <img src={player.img} />
@@ -14,7 +14,7 @@ export default class Player extends Component {
             </p>
           </div>
         </div>
-      </div>
-    ));
+      ))}
+    </div>;
   }
 }
